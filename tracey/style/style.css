@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+header{
+    font-size: 100px;
+    font-family: Pacifico;
+    color: blueviolet;
+}
+
+.firstof{
+    font-variant: initial;
+}
+
+body{
+    background: linear-gradient(to bottom, #FFC0CB, #FF69B4);
+}
+ul{
+    color: blueviolet;
+    font-size: 60px;
+}
+.first{
+    background: linear-gradient(to right, 
+    #800080, #4B0082, #0000FF, #008000, #236565, #0c423e, #4b327c, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+
+ 
+    
+}
+.gf{
+    color: blueviolet;
+    font-weight: 300;
+    font-size: 70px;
+    font-family: Pacifico;
+}
+.tracey img {
+    max-width: 500px;
+    height: 100%;
+    float: left;
+}
+
+.tracey::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.secondwrd{
+    background: linear-gradient(to right, 
+    #003366, #336699, #6699CC, #99CCFF, #CCFFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+.secondpic{
+    width: 300px;
+    height: 100%;
+}
+
+body {
+    background: repeating-linear-gradient(to bottom, 
+     #FFB6C1, #FFC0CB, #FFD1DC, #FFDAB9, #FFDEAD);
+    overflow: auto; /* or overflow: visible; or overflow: scroll; */
+}
+.thirdwrd{
+    background: linear-gradient(to right, 
+    #003366, #336699, #6699CC, #99CCFF, #CCFFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+.thirdpic{
+max-width: 200px;
+height:100% ;
+}
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px; /* Add some padding to create margins */
+    font-family: Arial, sans-serif; /* Use a common font */
+    line-height: 1.5; /* Set line height for readability */
+}
+
+.notebook {
+    background-color: #ffffff; /* White background for notebook */
+    border: 1px solid #ccc; /* Add border to resemble notebook cover */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 20px; /* Add padding inside the notebook */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+.notebook h1 {
+    font-size: 24px; /* Larger font size for headings */
+}
+
+.notebook p {
+    margin-bottom: 15px; /* Add some space between paragraphs */
+}
+.notebook {
+    background: linear-gradient(to right, 
+    #003366, #336699, #6699CC, #99CCFF, #CCFFFF); /* White background for notebook */
+    border: 1px solid #ccc; /* Add border to resemble notebook cover */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 20px; /* Add padding inside the notebook */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    position: relative; /* Position the rings relative to this container */
+}
+
+.notebook::before,
+ 
+
+.notebook::before {
+    background-position: left; /* Position the left side of the rings */
+}
+
+.notebook::after {
+    background-position: right; /* Position the right side of the rings */
+}
+
+.notebook{
+    font-size: 50px;
+    font-family: Pacifico;
+    background: linear-gradient(90deg #a0a0ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+.tracey{
+    font-size: 100px;
+}
+.mommy{
+    max-width: 200px;
+    height: 374px;
+}
+/* Style the navigation links */
+nav ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #004d99; /* Set text color to dark blue */
+}
+
+/* Change the text color on hover */
+nav ul li a:hover {
+    color: #ffffff; /* Change text color to white on hover */
+}
